@@ -1,0 +1,13 @@
+#!/bin/bash
+# 加载模块
+module load anaconda/2021.05
+module load cuda/11.1
+module load gcc/7.3
+
+# 激活环境
+source activate mmcls
+
+# 切换路径
+cd /HOME/scz0a21/run/MMLab-learn/mmclassification
+
+python tools/train.py configs/vision_transformer/vit-base-p16_pt-1xb256_bloods-224.py --work-dir work_dirs/vit/vit-base-p16/vit-base-p16_pt-1xb256_bloods-224/
