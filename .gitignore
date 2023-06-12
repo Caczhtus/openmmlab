@@ -1,1 +1,5 @@
 /homework-2/ckpt/*
+/homework-3/checkpoint/*
+/homework-3/work_dirs/*.pth
+/homework-3/work_dirs/last_checkpoint
+/homework-3/work_dirs/best_coco/*
