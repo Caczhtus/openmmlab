@@ -3,3 +3,5 @@
 /homework-3/work_dirs/*.pth
 /homework-3/work_dirs/last_checkpoint
 /homework-3/work_dirs/best_coco/*
+/homework-4/work_dirs/*.pth
+/homework-4/work_dirs/last_checkpoint
